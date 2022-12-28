@@ -18,11 +18,16 @@
 Here are a few examples:
 ```sh
 curl https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points/MC00427
+```
+```sh
 curl https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points/closest?latitud=19.3185&longitud=-98.96466
-curl https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points?page=1700
+```
+```sh
 curl https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points?colonia=IGNACIO%20ZARAGOZA%20I
 ```
-
+```sh
+curl https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points?colonia=IGNACIO%20ZARAGOZA%20I
+```
 > This was given to me as a technical assesment for a job position, I generally do not do this kinds of take home assignments but I decided to do it as a side project because... why not?
 
 ## Tech
