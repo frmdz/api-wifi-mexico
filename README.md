@@ -26,7 +26,7 @@ curl "https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points/closest?lati
 curl "https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points?colonia=IGNACIO%20ZARAGOZA%20I"
 ```
 ```sh
-curl "https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points/page=27"
+curl "https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points&page=27"
 ```
 ```sh
 curl "https://api-wifi-mexico-ctfu4tokva-uc.a.run.app/access-points"
