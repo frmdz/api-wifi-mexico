@@ -59,9 +59,9 @@ COPY access_points(id, programa, fecha_instalacion, latitud, longitud, colonia, 
 FROM '/home/.../dataset.csv' DELIMITER ',' CSV HEADER;
 ```
 
-**Sidenote:**  If you want to use [cloud SQL](https://cloud.google.com/sql) (like I did for the deployement) you should keep in mind that you whould remove the first line from the CSV (the column names) before attemting to [import the CSV](https://cloud.google.com/sql/docs/postgres/import-export/import-export-csv#import_data_from_a_csv_file). In the future, I will write a [Cloud Function](https://cloud.google.com/functions) to do this automatically.
+**Sidenote:**  If you want to use [cloud SQL](https://cloud.google.com/sql) (like I did for the deployement) you should keep in mind that you should remove the first line from the CSV (the column names) before attemting to [import the CSV](https://cloud.google.com/sql/docs/postgres/import-export/import-export-csv#import_data_from_a_csv_file). In the future, I will write a [Cloud Function](https://cloud.google.com/functions) to do this automatically.
 
-**Sidenote 2:**  It is is my plans to create a [Cloud Build config file](https://cloud.google.com/build/docs/build-config-file-schema) so it this so de deployment and prerequisites are done automatically. A bash script is also in my plans.
+**Sidenote 2:**  It is is my plans to create a [Cloud Build config file](https://cloud.google.com/build/docs/build-config-file-schema) so it this so de deployment and prerequisites are done automatically. A bash script is also on my plans.
 
 Set up the following environment varibles (I know its not safe, I did not have time to use something like [Secret Manager](https://cloud.google.com/secret-manager)):
 | env | description |
