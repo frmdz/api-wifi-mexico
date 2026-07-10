@@ -1,2 +1,5 @@
 node_modules/
 .vscode
+logs/nginx/access.log
+logs/nginx/error.log
+logs/nginx/

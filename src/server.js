@@ -1,5 +1,5 @@
 // Imports the express routes lo
-const app = require('./src/index.js');
+const app = require('./index.js');
 
 const port = 8080;
 

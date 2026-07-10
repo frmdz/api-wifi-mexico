@@ -1,0 +1,2 @@
+CREATE EXTENSION IF NOT EXISTS cube SCHEMA pg_catalog;
+CREATE EXTENSION IF NOT EXISTS earthdistance SCHEMA pg_catalog;
